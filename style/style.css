@@ -1,0 +1,31 @@
+.button {
+    -fx-background-color: #f7f7f7;
+}
+
+#start{
+    -fx-background-color: #75cd5a;;
+}
+
+#exit{
+    -fx-background-color: #ff7068;
+}
+
+#start:hover {
+    -fx-background-color: #5baf5b;
+}
+
+#start:pressed {
+    -fx-background-color: #499149;
+}
+
+#exit:hover {
+    -fx-background-color: #cd6c6c;
+}
+
+#exit:pressed {
+    -fx-background-color: #af5858;
+}
+
+.button:disabled {
+    -fx-opacity: 1.0;
+}
